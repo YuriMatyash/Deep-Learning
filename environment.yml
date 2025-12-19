@@ -1,0 +1,16 @@
+name: deep_learning
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pytorch
+  - torchvision
+  - pytorch-cuda=12.4
+  - matplotlib
+  - numpy
+  - ipykernel
+  - seaborn
+  - scikit-learn
+  - pip
