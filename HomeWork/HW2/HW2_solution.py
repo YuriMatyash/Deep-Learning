@@ -3,7 +3,7 @@ import numpy as np
 # Hyper parameters
 MEAN = 0.0  # Mean for the normal distribution
 STD = 1/3  # Standard deviation for the normal distribution
-ITERATIONS = 1000   # Number of iterations for training
+ITERATIONS = 10000   # Number of iterations for training
 X = np.array([[0, 0, 1],
               [0, 1, 1],
               [1, 0, 1],
@@ -20,7 +20,7 @@ def sigmoid(x:np.ndarray) -> np.ndarray:
  
 # computes the derivative of sigmoid function
 def sigmoid_derivative(x:np.ndarray) -> np.ndarray:
-    return sigmoid(x) * (1 - sigmoid(x))
+    return x * (1 - x)
 
 # weights, array with random values, mean 0, std 1/3, 3x1 shape
 np.random.seed(1)
@@ -47,7 +47,7 @@ for epoc in range(ITERATIONS):
     if epoc % 100 == 0:
         print(f"Error after {epoc} iterations: {np.mean(np.abs(l1_error))}")
     
-    if epoc == 999:
+    if epoc == 9999:
         print()
         print("Final weights after training:")
         print(weights)
