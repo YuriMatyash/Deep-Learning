@@ -1,0 +1,45 @@
+Exercise 7: Exploring Audio Datasets (Optional Assignment) 
+
+Objective: 
+
+Explore publicly available audio datasets to deepen their understanding of audio analysis. The goal is to apply the techniques learned in the notebook (eg, spectrograms,  mel -spectrograms, decibel scales, and classification ) to new datasets. Completion of this assignment is optional but will provide  additional  points towards your practice grades . 
+
+ 
+
+Instructions: 
+
+Select an Audio Dataset:  Below are two  accessible audio datasets for you to explore.  You may c hoose one  th ese or  select another  dataset  that interests  you  . 
+
+ESC-50 
+
+Description: A curated dataset of 2,000 environmental recordings organized into 50 classes, such as animals, natural soundscapes, and human activities. 
+
+Download ESC-50 Dataset 
+
+Free Spoken Digit Dataset (FSDD) 
+
+Description: An open dataset of spoken digits (0–9) recorded by multiple speakers, useful for speech and audio recognition tasks. 
+
+Download FSDD Dataset 
+
+Analyze the Dataset: 
+
+Use Python and libraries like  torchaudio ,  librosa , or matplotlib to analyze the dataset. 
+
+Perform audio processing, such as generating spectrograms,  mel -spectrograms, and applying the decibel scale to visualize sound intensity. 
+
+Attempt to classify the audio samples based on their labels, applying methods  similar to  what was  demonstrated  in the notebook. 
+
+Document Your Work: 
+
+Provide a brief explanation of the dataset you chose. 
+
+Include your observations, visualizations, and insights from the analysis. 
+
+Highlight challenges faced and solutions implemented during the analysis process. 
+
+Submission Guidelines: 
+
+Submit your analysis as a  Jupyter  Notebook or a well-documented Python script. 
+
+Include screenshots of visualizations and any  additional  comments or explanations. 
